@@ -42,8 +42,8 @@ header {
     background: url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
+    background-size: contain;
+    min-height: 360px;
 }
 
 .name {
