@@ -32,6 +32,7 @@ h4 {
 
 header {
     margin: 0;
+    background-color: black;
 }
 
 .heading {
@@ -42,7 +43,7 @@ header {
     background: url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
 }
 
 .name {
