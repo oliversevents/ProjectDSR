@@ -236,4 +236,7 @@ footer {
 
 .porch-image {
     background: url(../images/porch_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
