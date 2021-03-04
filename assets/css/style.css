@@ -140,7 +140,6 @@ footer {
     background-size: contain;
 }
 
-
 .social-links {
     padding-bottom: 15px;
 }
@@ -166,4 +165,23 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ------------------------------Gallery */
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photos img {
+  width: 100%;
+}
+
+@media screen and (max-width:800px) {
+  #photos {
+    column-count: 2;
+  }
 }
