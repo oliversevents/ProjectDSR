@@ -233,3 +233,7 @@ footer {
 
   position: absolute;
 }
+
+.porch-image {
+    background: url(../images/porch_image.jpg);
+}
