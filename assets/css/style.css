@@ -191,7 +191,7 @@ footer {
 .hero-image {
   height: 600px;
   width: 100%;
-  background: url(../images/ann_kitchen2.jpg) no-repeat center center;
+  background: url(../images/heroimage.jpg) no-repeat center center;
 
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -228,8 +228,8 @@ footer {
 
   background-color: rgba(105, 104, 104, 0.7);
 
-  bottom: 30px;
-  right: 150px;
+  bottom: 50px;
+  right: 200px;
 
   position: absolute;
 }
