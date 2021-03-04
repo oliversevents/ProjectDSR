@@ -207,10 +207,10 @@ footer {
 
 @keyframes hero-zoom {
   from {
-    transform: scale(1.4);
+    transform: scale(1.7);
   }
   to {
-    transform: scale(1.6);
+    transform: scale(1.9);
   }
 }
 
