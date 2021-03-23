@@ -293,3 +293,9 @@ button[type="submit"] {
     color: #fafafa;
     background-color: black;
 }
+
+/*----------------------------OUur Services */
+
+.service-bathroom-img {
+    background: url(../images/bathroom1.jpg);
+}
