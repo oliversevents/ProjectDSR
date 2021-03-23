@@ -299,7 +299,6 @@ button[type="submit"] {
 .service-bathroom-img {
     background: url(../images/bathroom1.jpg);
     height: 240px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: fill;
+    object-fit: cover;
+    overflow: hidden;
 }
