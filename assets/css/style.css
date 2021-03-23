@@ -336,6 +336,12 @@ hr {
     background-size: cover;
 }
 
+.service-upvc-img {
+    background: url(../images/upvc.jpg) no-repeat center center;
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+}
 
 
 
