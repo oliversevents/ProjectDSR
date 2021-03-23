@@ -329,11 +329,10 @@ hr {
     background-size: cover;
 }
 
-.service-drive-img {
+.service-driveway-img {
     background: url(../images/driveway.jpg) no-repeat center center;
     width: 100%;
     height: 320px;
-    background-size: cover;
 }
 
 
