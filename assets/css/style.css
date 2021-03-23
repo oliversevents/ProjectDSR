@@ -296,6 +296,14 @@ button[type="submit"] {
 
 /*----------------------------Our Services */
 
+hr {
+    height: 20px;
+   width: 80%;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: black;
+}
+
 .service-bathroom-img {
     background: url(../images/bathroom1.jpg) no-repeat center center;
     width: 100%;
