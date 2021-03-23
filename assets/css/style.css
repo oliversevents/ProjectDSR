@@ -298,6 +298,6 @@ button[type="submit"] {
 
 .service-bathroom-img {
     background: url(../images/bathroom1.jpg) no-repeat center center;
-    height: 500px;
+    width: 100%;
 }
 
