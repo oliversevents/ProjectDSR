@@ -348,6 +348,7 @@ hr {
 
 .about-img {
     border: solid black 5px;
+    border-radius: 25px;
 }
 
 .about-text {
