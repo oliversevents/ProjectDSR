@@ -355,6 +355,8 @@ hr {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
+    border: solid black 5px;
+    border-radius: 25px;
 }
 
 .about-text h3 {
