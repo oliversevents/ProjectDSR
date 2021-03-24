@@ -344,6 +344,7 @@ hr {
 }
 
 .about-img {
+    margin: 7px;
     border: solid black 5px;
 }
 
