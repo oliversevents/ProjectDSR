@@ -351,9 +351,9 @@ hr {
 }
 
 .about-text {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .about-text h3 {
