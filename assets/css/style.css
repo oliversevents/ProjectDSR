@@ -251,6 +251,12 @@ footer {
 
 /*--------------------------------------------Contact Form*/
 
+.contactform {
+    border: solid black 5px;
+    border-radius: 25px;
+    background-color: #8f8f8f;
+}
+
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
