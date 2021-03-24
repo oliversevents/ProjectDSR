@@ -350,11 +350,12 @@ hr {
     border: solid black 5px;
 }
 
-
-
-.classwithpadding {
-    margin: 7px;
+.about-right {
+    padding: 10px;
+    text-align: center;
 }
 
-
+.about-right h3 {
+    text-decoration: underline;
+}
 
