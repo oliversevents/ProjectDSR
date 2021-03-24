@@ -343,6 +343,10 @@ hr {
     background-size: cover;
 }
 
+.about-img {
+    border: solid black 5px;
+}
+
 
 
 
