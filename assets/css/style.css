@@ -306,39 +306,42 @@ hr {
 
 .service-bathroom-img {
     background: url(../images/bathroom1.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
+    background-size: cover;
 }
 
 .service-kitchen-img {
     background: url(../images/ann_kitchen.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
+    background-size: cover;
 }
 
 .service-wardrobe-img {
     background: url(../images/wardrobe.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
+    background-size: cover;
 }
 
 .service-loft-img {
     background: url(../images/loft.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
     background-size: cover;
 }
 
 .service-driveway-img {
     background: url(../images/driveway.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
     background-size: cover;
 }
 
 .service-upvc-img {
     background: url(../images/upvc.jpg) no-repeat center center;
-    width: 100%;
+    width: 90%;
     height: 320px;
     background-size: cover;
 }
