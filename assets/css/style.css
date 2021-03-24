@@ -200,10 +200,6 @@ footer {
   height: 600px;
   width: 100%;
   background: url(../images/kitchen4.jpg) no-repeat center center;
-
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
 .hero-outer {
