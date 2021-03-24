@@ -350,12 +350,13 @@ hr {
     border: solid black 5px;
 }
 
-.about-right {
+.about-text {
     padding: 10px;
     text-align: center;
+    vertical-align: center;
 }
 
-.about-right h3 {
+.about-text h3 {
     text-decoration: underline;
 }
 
