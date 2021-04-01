@@ -209,31 +209,19 @@ footer {
   position: relative;
 }
 
-@keyframes hero-zoom {
-  from {
-    transform: scale(1.7);
-  }
-  to {
-    transform: scale(1.9);
-  }
-}
-
 .hero-text {
   font-size: 130%;
   font-family: Roboto;
   text-transform: uppercase;
   letter-spacing: 4px;
 
-  width: 300px;
-  height: 200px;
+  width: 90%;
+  height: 90%;
   
   padding-top: 40px;
   padding-left: 10px;
 
   background-color: rgba(105, 104, 104, 0.7);
-
-  bottom: 50px;
-  right: 20px;
 
   position: absolute;
 }
