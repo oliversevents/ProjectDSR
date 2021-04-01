@@ -199,14 +199,14 @@ footer {
 .hero-image {
   margin: 25px;
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: url(../images/kitchen4.jpg) no-repeat center center;
   background-size: cover;
   border: 5px solid black;
 }
 
 .hero-outer {
-  height: 700px;
+  height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
