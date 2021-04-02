@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <script>
-        function myFunction(imgs) {
-  // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
-}
-    </script>
+    <script src="demo/js/hammer.min.js"></script>
+<script src="js/better-simple-slideshow.min.js"></script>
+<script>
+var opts = {
+    auto : {
+        speed : 3500, 
+        pauseOnHover : true
+    },
+    fullScreen : false, 
+    swipe : true
+};
+makeBSS('.num1', opts);
+</script>
     <title>Document</title>
 </head>
 
@@ -61,26 +60,22 @@
     </header>
 
     <section id="photos">
-        <div class="row">
-  <div class="column">
-    <img src="./assets/images/ann_kitchen.jpg" alt="Kitchen image" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="./assets/images/ann_kitchen2.jpg" alt="Kitchen image" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="./assets/images/ann_kitchen3.jpg" alt="Kitchen image" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="./assets/images/bathroom1.jpg" alt="Bathroom" onclick="myFunction(this);">
-  </div>
-</div>
-
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:100%">
-  <div id="imgtext"></div>
+       <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
+    <figure>
+      <img src="./assets/images/ann_kitchen.jpg" width="100%" /><figcaption>"Kitchen"</figcaption> 
+    </figure>
+    <figure>
+      <img src="./assets/images/ann_kitchen2.jpg" width="100%" /><figcaption>"Kitchen"</figcaption> 
+    </figure>
+    <figure>
+      <img src="./assets/images/ann_kitchen3.jpg" width="100%" /><figcaption>"Kitchen".</figcaption> 
+    </figure>
+    <figure>
+      <img src="./assets/images/bathroom1.jpg" width="100%" /><figcaption>"Bathroom"</figcaption> 
+    </figure>
+    <figure>
+      <img src="./assets/images/decking1.jpg" width="100%" /><figcaption>"Decking"</figcaption> 
+    </figure>
 </div>
     </section>
 
