@@ -47,18 +47,27 @@
     </header>
 
     <section id="photos">
-        <img src="../images/kitchen1.jpg">
-        <img src="../images/kitchen2.jpg">
-        <img src="../images/kitchen3.jpg">
-        <img src="../images/kitchen4.jpg">
-        <img src="../images/kitchen_tiled_floor.jpg">
-        <img src="../images/contact.html">
-        <img src="../images/wardrobe.jpg">
-        <img src="../images/porch_after.jpg">
-        <img src="../images/porch_after2.jpg">
-        <img src="../images/ann_kitchen.jpg">
-        <img src="../images/ann_kitchen2.jpg">
-        <img src="../images/ann_kitchen3.jpg">
+        <div class="row">
+  <div class="column">
+    <img src="./assets/images/ann_kitchen.jpg" alt="Kitchen image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="./assets/images/ann_kitchen2.jpg" alt="Kitchen image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="./assets/images/ann_kitchen3.jpg" alt="Kitchen image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="./assets/images/bathroom1.jpg" alt="Bathroom" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
     </section>
 
 <footer class="container-fluid">
